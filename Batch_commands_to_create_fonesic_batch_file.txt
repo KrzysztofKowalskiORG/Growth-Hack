@@ -1,0 +1,21 @@
+@echo off
+echo Audyt_hosta > NazwaPliku.txt
+echo | date >> NazwaPliku.txt
+whoami >> NazwaPliku.txt
+echo %path% >> NazwaPliku.txt
+systeminfo >> NazwaPliku.txt
+tasklist >> NazwaPliku.txt
+ver >> NazwaPliku.txt
+vol >> NazwaPliku.txt
+ipconfig /all >> NazwaPliku.txt
+hostname >> NazwaPliku.txt
+nbtstat -n >> NazwaPliku.txt
+netstat >> NazwaPliku.txt
+tracert koworg.com >> NazwaPliku.txt
+
+
+ 
+
+
+
+
